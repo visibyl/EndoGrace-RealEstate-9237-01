@@ -46,12 +46,12 @@
 
 
 
-        <!-- Navbar & Hero Start -->
+       <!-- Navbar Start -->
 <div class="container-fluid sticky-top px-0 shadow-sm">
   <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 px-4">
     <a href="index.html" class="navbar-brand p-0 d-flex align-items-center">
-      <i class="fas fa-layer-group text-primary me-2 fs-3"></i>
-      <h1 class="text-dark fw-bold m-0">Endo<span class="text-primary">Grace</span></h1>
+      <img src="img/endograce-logo.jpg" alt="EndoGrace Logo" class="me-2 logo-img">
+      
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span class="fa fa-bars text-primary"></span>
@@ -70,7 +70,31 @@
     </div>
   </nav>
 </div>
-<!-- Navbar & Hero End -->
+<!-- Navbar End -->
+
+<!-- Logo Style -->
+<style>
+.logo-img {
+  height: 65px; /* Adjust to your preferred small size */
+  width: auto;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  color: #0c2d48;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-primary {
+  color: #b7410e !important; /* Brick Red */
+}
+
+.navbar-brand:hover .logo-img {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+</style>
 
 
         <!-- Modal Search Start -->
@@ -683,4 +707,5 @@
 
 
 </html>
+
 
